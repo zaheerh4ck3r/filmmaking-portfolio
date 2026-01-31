@@ -16,7 +16,7 @@ const projects: Project[] = [
   {
     id: 1,
     title: "The child Series, Finale",
-    date: "Dec, 2026 - Present",
+    date: "Dec, 2025 - Present",
     excerpt: "A reel",
     status: "In development"
   },
