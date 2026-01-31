@@ -29,12 +29,12 @@ export default function Navigation() {
     const handleScroll = () => {
       const currentScrollY = window.scrollY
       
-      // // Determine visibility (hide on scroll down, show on scroll up)
-      // if (currentScrollY > lastScrollY && currentScrollY > 500) {
-      //   setIsVisible(false)
-      // } else {
-      //   setIsVisible(true)
-      // }
+      // Determine visibility (hide on scroll down, show on scroll up)
+      if (currentScrollY > lastScrollY && currentScrollY > 500) {
+        setIsVisible(false)
+      } else {
+        setIsVisible(true)
+      }
 
       setLastScrollY(currentScrollY)
 
